@@ -41,3 +41,17 @@ unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 copy_messages(unprinted_designs, completed_models)
 send_messages(completed_models)
+
+# Archived Messages: Start with your work from Exercise 8-10. Call the
+# function send_messages() with a copy of the list of messages. After calling the
+# function, print both of your lists to show that the original list has retained its
+# messages.
+def copy_messages(unprinted_designs, completed_models):
+    print('unprinted_designs')
+    while unprinted_designs:
+        copy_messages = unprinted_designs.pop()
+        completed_models.append(copy_messages)
+        for c in completed_models:
+            print(c)
+
+copy_messages(unprinted_designs[:], completed_models)
