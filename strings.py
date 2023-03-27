@@ -72,5 +72,5 @@ gee = 6.77777
 bee = 'the number is {} and {:.2f}'.format(var,gee)
 print(bee)
 #f-string format
-var = F'hey {var * 2}'
+var = f'hey {var * 2}'
 print(var)
