@@ -10,3 +10,20 @@ xpoint = np.array([0, 6])
 ypoint = np.array([0, 250])
 plt.plot(xpoint, ypoint)
 plt.show()
+
+xpoint = np.array([0, 2, 5, 6])
+ypoint = np.array([0, 4, 6, 12])
+plt.plot(xpoint, ypoint, 'o')
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, marker = 'o')
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, 'o', linestyle = 'dotted', ms=15, mec='r', mfc='g')
+plt.show()
