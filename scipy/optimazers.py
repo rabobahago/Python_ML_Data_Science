@@ -51,8 +51,8 @@ print(y.x)
 #      "disp": boolean - print detailed description
 #      "gtol": number - the tolerance of the error
 #   }
+# Minimize the function x^2 + x + 2 with BFGS:
 
-Minimize the function x^2 + x + 2 with BFGS:
 from scipy.optimize import minimize
 def eqn(x):
   return x**2 + x + 2
