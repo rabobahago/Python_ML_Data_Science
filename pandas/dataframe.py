@@ -4,25 +4,19 @@
 # Create a simple Pandas DataFrame:
 
 import pandas as pd
-
-data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
-}
-
-#load data into a DataFrame object:
-df = pd.DataFrame(data)
-print(df)
-print(df.loc[0])
-
-# Named Indexes
-# With the index argument, you can name your own indexes.
-# Add a list of names to give each row a name:
-
-import pandas as pd
-data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
-}
-df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
-print(df)
+df = pd.DataFrame({
+    "Name":["Rabo Yusuf", 'Martins Shuka', 'Mart Kenneth'],
+    "Age": [30, 34, 45],
+    "Sex":['Male', 'Female', 'Female']
+    })
+print(df['Age'])
+# I’m just interested in working with the data in the column Age
+df['Age']
+print(df['Age'].max())
+# I’m interested in some basic statistics of the numerical data of my data table
+print(df['Age'].describe())
+print(df['Age'].describe()[''])
+# You can create a Series from scratch as well:
+age = pd.Series([23, 45, 67, 90], name='Age')
+print(age)
+print(age.max())
