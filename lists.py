@@ -80,3 +80,7 @@ my_list_com = [2, 3, 5, 6, 7, 8,]
 comprehen = [i * i for i in my_list_com]
 print(my_list_com)
 print(comprehen)
+i = [2, 4, 6, 30]
+print('hello')
+gee = [i for el in i if el <= 20]
+print(gee)

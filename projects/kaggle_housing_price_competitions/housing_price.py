@@ -3,16 +3,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-# Set up code checking
-# import os
-# if not os.path.exists("../input/train.csv"):
-#     os.symlink("../input/home-data-for-ml-course/train.csv", "../input/train.csv")
-#     os.symlink("../input/home-data-for-ml-course/test.csv", "../input/test.csv")
-# from learntools.core import binder
-# binder.bind(globals())
-# from learntools.ml_intermediate.ex1 import *
-# print("Setup Complete")
-
 # Read the data
 X_full = pd.read_csv('./train.csv', index_col='Id')
 X_test_full = pd.read_csv('./test.csv', index_col='Id')
