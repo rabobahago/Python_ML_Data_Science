@@ -16,4 +16,8 @@ y.backward()
 
 #The derivates of y w.r.t the input tensors are stored in
 # the .grad property of the respective tensors
-print()
+
+#gradient
+print('dy/dx:', x.grad)
+print('dy/dw:', w.grad)
+print('dy/db:', b.grad)
