@@ -10,5 +10,6 @@ f('This', 'is', 'CS50')
 nums = [30, 5, 7, 90, 100, 1000]
 larger_num = filter(lambda x: x > 50, nums)
 print(list(larger_num))
-larger_num = [num > 45 for num in nums]
-print(larger_num)
+larger_num = [num + 2 for num in nums if num > 45]
+square_num = [num * num for num in nums]
+print(larger_num, square_num)
