@@ -1,3 +1,5 @@
+# Download and Install Python and SciPy
+
 import sys
 
 #python version
