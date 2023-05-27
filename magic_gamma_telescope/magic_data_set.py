@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from imblearn.over_sampling import RandomOverSampler
 cols = ['fLength', 'fWidth', 'fSize', 'fConc', 'fConc1', 'fAsym', 'fM3Long', 'fM3Trans', 'fAlpha', 'fDist', 'class']
 df = pd.read_csv("magic04.data", names=cols)
 print(df.shape)
@@ -15,3 +17,16 @@ for label in cols[:-1]:
     plt.legend()
     plt.show()
 train, valid, test = np.split(df.sample(frac=1), [int(0.6*len(df)), int(0.8*len(df))])
+def scale_data(dataframe, oversample = False):
+    X = dataframe[dataframe.columns[:-1]].values
+    y = dataframe[dataframe.columns[-1]].values
+    scale =StandardScaler()
+    X = scale.fit_transform(X)
+    if oversample:
+        ros = RandomOverSampler()
+        X, y = ros.fit_resample(X, y)
+    data = np.hstack((X, np.reshape(y,(-1, 1))))
+    return data, X, y
+train, X_train, x_train = scale_data(train, oversample=True)
+valid, X_valid, x_valid = scale_data(valid, oversample=False)
+test, X_test, x_test = scale_data(test, oversample=False)
