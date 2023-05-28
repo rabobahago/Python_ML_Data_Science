@@ -1,3 +1,4 @@
+from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report
 import pandas as pd
@@ -43,6 +44,8 @@ test, X_test, y_test = scale_data(test, oversample=False)
 knn_model = KNeighborsClassifier(n_neighbors=1)
 knn_model.fit(X_train, y_train)
 y_predict = knn_model.predict(X_test)
-print(y_predict)
-print(y_test)
+print(classification_report(y_test, y_predict))
+nb_model = GaussianNB()
+nb_model = nb_model.fit(X_train, y_train)
+y_predict = nb_model.predict(X_test)
 print(classification_report(y_test, y_predict))
