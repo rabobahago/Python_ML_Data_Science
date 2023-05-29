@@ -1,3 +1,4 @@
+from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report
@@ -41,11 +42,18 @@ def scale_data(dataframe, oversample=False):
 train, X_train, y_train = scale_data(train, oversample=True)
 valid, X_valid, y_valid = scale_data(valid, oversample=False)
 test, X_test, y_test = scale_data(test, oversample=False)
+# K Near Neighbor
 knn_model = KNeighborsClassifier(n_neighbors=1)
 knn_model.fit(X_train, y_train)
 y_predict = knn_model.predict(X_test)
 print(classification_report(y_test, y_predict))
+# Bayes Naive approach
 nb_model = GaussianNB()
 nb_model = nb_model.fit(X_train, y_train)
 y_predict = nb_model.predict(X_test)
+print(classification_report(y_test, y_predict))
+# Logistic Regression
+lg_model = LogisticRegression()
+lg_model = lg_model.fit(X_train, y_train)
+y_predict = lg_model.predict(X_test)
 print(classification_report(y_test, y_predict))
