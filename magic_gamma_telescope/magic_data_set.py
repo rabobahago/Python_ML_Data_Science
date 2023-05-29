@@ -1,3 +1,4 @@
+from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
@@ -56,4 +57,9 @@ print(classification_report(y_test, y_predict))
 lg_model = LogisticRegression()
 lg_model = lg_model.fit(X_train, y_train)
 y_predict = lg_model.predict(X_test)
+print(classification_report(y_test, y_predict))
+# SVM
+svm_model = SVC()
+svm_model = svm_model.fit(X_train, y_train)
+y_predict = svm_model.predict(X_test)
 print(classification_report(y_test, y_predict))
