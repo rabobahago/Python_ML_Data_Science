@@ -46,4 +46,3 @@ birds.plot(x='Category',
 category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
-plt.show()
