@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from datetime import datetime
 # read from CSV File
 pumpkins = pd.read_csv('./pumpkins.csv')
 
@@ -15,6 +16,9 @@ pumpkins = pumpkins.loc[:, columns_to_select]
 price = (pumpkins['Low Price'] + pumpkins['High Price']) / 2
 # Month
 month = pd.DatetimeIndex(pumpkins['Date']).month
+
+day_of_year = pd.to_datetime(pumpkins['Date']).apply(
+    lambda dt: (dt-datetime(dt.year, 1, 1)).days)
 
 # copy your converted data into a fresh Pandas dataframe
 
