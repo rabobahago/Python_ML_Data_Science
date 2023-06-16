@@ -34,7 +34,7 @@ for name in rivers:
 for name in rivers.values():
     print(name)
 ool = {'tea', 'nile', 'niger', 'tea'}
-print(ool)
+
 
 # People: Start with the program you wrote for Exercise 6-1 (page 99).
 # Make two new dictionaries representing different people, and store all three
