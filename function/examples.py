@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Callable
 
 
 def get_name():
@@ -71,3 +71,34 @@ def invoice(product: str, *args: str, **kwargs) -> None:
 
 invoice('Sneakers', 'black', 'white', brand='Nike',
         category='Air Jordans', prices=899.99, in_stock=False)
+
+
+def greet_rabo(name: str) -> None:
+    print(f'Hello {name}')
+
+
+def good_morning(name: str) -> None:
+    print(f'Good Morning {name}')
+
+
+def good_evening(name: str) -> None:
+    print(f'Good evening {name}')
+
+
+def universal(name: str, fn: Callable[[str], None]):
+    val = fn(name)
+    print(val)
+
+
+universal('Rabo', greet_rabo)
+universal('Withdren', good_evening)
+
+
+def get_num() -> Callable[[int], int]:
+    def supply_num(num: int) -> int:
+        return num + 5
+    return supply_num
+
+
+val = get_num()
+print(val(6))
