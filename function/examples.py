@@ -102,3 +102,12 @@ def get_num() -> Callable[[int], int]:
 
 val = get_num()
 print(val(6))
+
+
+def week(x, y): return x + y
+
+
+print(week(2, 3))
+
+print_name: Callable[[str], None] = lambda name: f'{name}'
+print(print_name('rabo'))
