@@ -1,10 +1,8 @@
-from shape.circle import Cicle
-from shape.rectangle import Rectagle
-from shape.square import Square
+import shape
 
-circle = Cicle(50)
+circle = shape.Cicle(50)
 print(circle)
-square = Square(4)
+square = shape.Square(4)
 print(square)
-rectagle = Rectagle(2, 3)
+rectagle = shape.Rectagle(2, 3)
 print(rectagle)
