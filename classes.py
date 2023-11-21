@@ -76,3 +76,8 @@ class Circle:
         '''decrease the radius by one'''
         if self.radius > 0:
             self.radius -= 1
+
+
+x = 1
+color = ['red' if x > 0 else 'yello', 'green', 'white']
+print(color)
