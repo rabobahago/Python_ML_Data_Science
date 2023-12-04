@@ -1,0 +1,3 @@
+Unix does not distinguish binary files from text files but windows
+does. On windows 'rb', 'wb', 'ab' should be used to open a binary
+file in read, write and append mode respectively.
