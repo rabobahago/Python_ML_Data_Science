@@ -1,0 +1,6 @@
+Every line you get this way ends in a newline character, so you’ll often want to strip() it
+before doing @anything with it.
+For @example, imagine you have a file full of email addresses, one per line, and that you
+need to generate a histogram of the domains. The rules for correctly extracting domains
+are somewhat subtle (e.g., the Public Suffix List), but a good first approximation is to just
+take the parts of the email addresses that come after the @. (Which gives the wrong answer
