@@ -1,0 +1,265 @@
+[33mcommit bb3fcea4c584fa8299d62f32c6439490fb2b56cf[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Mon Apr 29 15:47:25 2024 +0100
+
+    dataset download and python pattern implemented
+
+[33mcommit 0b13fb86143b51cecdc548c76b12a4569a3d349c[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Sat Apr 27 13:57:41 2024 +0100
+
+    cpu and gpu technique switch implemented
+
+[33mcommit ad2a9c5724dc9245c2febf29f518c829aceeb860[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Apr 26 19:14:56 2024 +0100
+
+    numpy, pytorch math operations and manipulation implemented
+
+[33mcommit b2e5a9c35abc87bfd473a1c8f83d39a219ad3a1c[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Apr 25 14:18:06 2024 +0100
+
+    operating system paths implemented
+
+[33mcommit 1b0f1f4d2e0b63b23e07e84a7ec05dfa5cb8acfe[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Apr 19 12:12:44 2024 +0100
+
+    mean, variance, standard, covariance and correlation implemented in numpy
+
+[33mcommit fc181862a29818af3f36913b66a12335070211d2[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Apr 18 23:34:27 2024 +0100
+
+    multiple three and pascal function added
+
+[33mcommit c4d5210010fb5f7d553a73fceaccb5ae7dff9338[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 17 17:56:19 2024 +0100
+
+    decorator refactored
+
+[33mcommit 23fe99ce3f6c2ee76b1cea32add83dd89698aaad[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 17 17:10:44 2024 +0100
+
+    python decorator implemented
+
+[33mcommit a1bdadb45c3bf948ed65f5d3daab2cff9cce8fff[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Tue Apr 16 16:28:16 2024 +0100
+
+    object and set manipulation implemented
+
+[33mcommit 80a0895f0d985bb10366b1fbd6744cd55a10ae3f[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Sat Apr 13 15:15:47 2024 +0100
+
+    naive function bug fixed
+
+[33mcommit b87616204f43802528ca4c0efcafdaa6cb5b9c9e[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Sat Apr 13 14:58:09 2024 +0100
+
+    naive relu and naive add function added
+
+[33mcommit eb86be2eec86e06f1242e0e46f33106130c0dbc8[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Apr 12 17:41:20 2024 +0100
+
+    model evaluation and accuracy implemented
+
+[33mcommit 7866530b9c7beda86728ecb439b26dd17f9cdc70[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Apr 12 17:14:19 2024 +0100
+
+    mnist neural network trained
+
+[33mcommit a73e794587a4b3def7ea27fea7aef8e496338b8d[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Apr 11 16:24:10 2024 +0100
+
+    basic neural network architecture added
+
+[33mcommit d96c7c86a51afde5391ccde3452de4f7493de72e[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Apr 4 10:36:05 2024 +0100
+
+    twitter search api added
+
+[33mcommit 23f65215cc5d70f40f4179ddffbbe58c1fc4bdac[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 3 14:50:44 2024 +0100
+
+    web scrapting with BeautifulSoup, requests, and html5lib added
+
+[33mcommit 873f172e371fa932db64c92ecb11e9a95d3cfeab[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 3 13:36:39 2024 +0100
+
+    minimize stochastic implemented
+
+[33mcommit 70d1e5f736e2375be2c7f8e203aacd4cc8f9f1f9[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 3 13:21:08 2024 +0100
+
+    gradient descent with python implemented
+
+[33mcommit bf4677159764b49a4fcdda9c1c468636a484618f[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 3 13:06:05 2024 +0100
+
+    probability normal implemented
+
+[33mcommit d75892d6f15a696e106230c4671dff648c81492b[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Apr 3 11:19:41 2024 +0100
+
+    statistics methods all implemented
+
+[33mcommit 60df4fd1ca6d50a8938531911cce8b7797b4317b[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Tue Apr 2 18:16:08 2024 +0100
+
+    mean and median statistics implemented
+
+[33mcommit 72bce7ba562e1f325b36bbf9177848c93d694f17[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Tue Apr 2 14:44:06 2024 +0100
+
+    basic linear algebra implemented
+
+[33mcommit 867bb6e713d6022e7922a83944da87c979db190f[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Mon Apr 1 21:42:46 2024 +0100
+
+    finding key connectors added
+
+[33mcommit 0e6cb806a25803d0fe97ced2d6da5b6f06f5f6c5[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Sat Mar 30 02:58:30 2024 +0100
+
+    Creating a Baseline Regression Model added
+
+[33mcommit 5c1be3fd53346c56dfe6fffacfc085987fcf69d8[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Sat Mar 30 02:44:22 2024 +0100
+
+    model evaluation cross validating models added
+
+[33mcommit ead398c673a6f1d4849d75b7cb11b5278e596ec2[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Mar 29 11:35:05 2024 +0100
+
+    Recursively Eliminating Features added
+
+[33mcommit 3f4b58c1510fc973d70feb4a138be7ff9a89bf4f[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Mar 29 10:51:47 2024 +0100
+
+    Reducing Features on Sparse Data added
+
+[33mcommit a047a7d606db6b8aafcae111f2345f22c42b70b7[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Mar 29 10:40:29 2024 +0100
+
+    Reducing Features by Maximizing Class Separability added
+
+[33mcommit 1377a2605e9c5b2b3b1e1c3c725c612912bf229a[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Mar 29 10:16:22 2024 +0100
+
+     Reducing Features by Maximizing Class Separability added
+
+[33mcommit 28b71ab087d4b5b996e0aad252dfa556b5dad4a1[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Fri Mar 29 09:44:07 2024 +0100
+
+    Reducing Features Using Principal Components added
+
+[33mcommit c8a26bc8cfdd4e8e7039a5d9055bce3b57863a86[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 11:53:03 2024 +0100
+
+    handling images modules implemented
+
+[33mcommit a54440e5e03a8066e51b893f9f1b34c55c8f1c4f[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 11:46:22 2024 +0100
+
+    encoding mean color as a feature added
+
+[33mcommit 8904e0210c046a35522472f10f4881c5c2015e81[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 11:35:04 2024 +0100
+
+    detecting edges and corners added
+
+[33mcommit 32486fe53024dcd98db917fcd0be61af570357d6[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 11:29:37 2024 +0100
+
+    Binarizing Images implemented
+
+[33mcommit e536f48a9462bdc2a5dde47aa16e3fb3316ec112[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 10:22:49 2024 +0100
+
+    Cropping Images and blurring images added
+
+[33mcommit e70ceb509402ca29a2fe024a18ac2affbe5f8a96[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 09:42:40 2024 +0100
+
+    images pixels and color intensity implemented
+
+[33mcommit 0f344cf76a20665493684d9e0c335612d68b5470[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 09:30:17 2024 +0100
+
+    handling loading images added
+
+[33mcommit 1e6417c038af8176e73847f28e542f00a73cca32[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 04:04:31 2024 +0100
+
+    handling dates and times all added
+
+[33mcommit f9d4f1df027367cb9a9426eeb4f7f53f93f681c7[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 03:57:59 2024 +0100
+
+    Breaking Up Date Data into Multiple Features added
+
+[33mcommit 40c6898f95ea697e9d0782e918124a377051dae9[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Thu Mar 28 03:47:50 2024 +0100
+
+    Selecting Dates and Times and Converting Strings to Dates added
+
+[33mcommit 8efa53bb0d0ccfe49e31a45803e52c4a4f2462b5[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Mar 27 15:21:27 2024 +0100
+
+    text word tokenization implemented
+
+[33mcommit f9eef3fd3695414b0202568e276c1002c281cb4b[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Mar 27 14:45:05 2024 +0100
+
+    Parsing and Cleaning HTML implemented
+
+[33mcommit 002334cc46f78210092bdd0e6c2d839b8b306613[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Mar 27 14:35:52 2024 +0100
+
+    handling text cleaning implemented
+
+[33mcommit e7b4a71cf3486af03e2f308a26dddf067976e91d[m
+Author: rabobahago <rabobahago@gmail.com>
+Date:   Wed Mar 27 13:26:31 2024 +0100
+
+    handling categorical data imputing missing class values added
+
+[33mcommi

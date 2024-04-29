@@ -1,0 +1,8 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+__pycache__
+
+.vscode
+
+# CIFAR10 dataset
+cifar10_data
