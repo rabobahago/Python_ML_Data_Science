@@ -2,8 +2,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore PyTorch torchvision CIFAR10 dataset download
+/data/
+
 # CIFAR10 dataset
-cifar10_data 
+cifar10_data
 
 # C extensions
 *.so

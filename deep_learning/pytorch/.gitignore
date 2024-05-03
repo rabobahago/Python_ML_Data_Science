@@ -4,5 +4,5 @@ __pycache__
 
 .vscode
 
-# CIFAR10 dataset
-cifar10_data
+# Ignore PyTorch torchvision CIFAR10 dataset download
+/data/
